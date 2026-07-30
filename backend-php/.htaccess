@@ -1,0 +1,11 @@
+DirectoryIndex index.php
+
+RewriteEngine On
+
+# If existing file or directory, serve it directly.
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Forward everything else to backend index.
+RewriteRule ^ index.php [L,QSA]

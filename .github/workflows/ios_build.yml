@@ -1,0 +1,41 @@
+# Сборка iOS на macOS (GitHub Actions). На Windows/macOS без Xcode локально: Actions → Build iOS → Run workflow.
+# Артефакт: zip с Runner.app (без подписи App Store). Для TestFlight нужны сертификаты Apple в секретах.
+
+name: Build iOS
+
+on:
+  workflow_dispatch:
+
+jobs:
+  ios:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Flutter pub get
+        run: flutter pub get
+
+      - name: Build iOS (release, без подписи)
+        run: flutter build ios --release --no-codesign
+
+      - name: Упаковать Runner.app
+        run: |
+          set -e
+          APP_PATH=$(find build/ios -name 'Runner.app' -type d | head -1)
+          if [ -z "$APP_PATH" ]; then
+            echo "Runner.app не найден:"
+            find build/ios -type d -maxdepth 6 || true
+            exit 1
+          fi
+          echo "Found: $APP_PATH"
+          (cd "$(dirname "$APP_PATH")" && zip -r "$GITHUB_WORKSPACE/ios-Runner-release.zip" Runner.app)
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ios-Runner-release
+          path: ios-Runner-release.zip

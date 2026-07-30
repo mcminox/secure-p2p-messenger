@@ -1,0 +1,13 @@
+{
+  "name": "secure-p2p/backend",
+  "description": "Secure P2P auth, billing and license backend",
+  "type": "project",
+  "require": {
+    "php": "^8.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "SecureP2P\\": "src/"
+    }
+  }
+}
