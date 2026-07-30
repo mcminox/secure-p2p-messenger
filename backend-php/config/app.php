@@ -10,4 +10,9 @@ return [
     'access_ttl_seconds' => 600,
     'license_ttl_seconds' => 600,
     'refresh_ttl_seconds' => 60 * 60 * 24 * 30,
+    'mx_provenance' => [
+        'owner' => 'mcminox',
+        'mark' => 'MX-OWN-2026-SECURE-P2P-MESSENGER',
+        'repo' => 'https://github.com/mcminox/secure-p2p-messenger',
+    ],
 ];

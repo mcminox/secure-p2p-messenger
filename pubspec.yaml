@@ -1,7 +1,9 @@
 name: secure_p2p_messenger
-description: Local P2P messenger.
+description: Portfolio demo by mcminox. Proprietary. MX-OWN-2026-SECURE-P2P-MESSENGER.
 publish_to: "none"
 version: 0.1.0
+homepage: https://github.com/mcminox/secure-p2p-messenger
+author: mcminox
 
 environment:
   sdk: ">=3.3.0 <4.0.0"

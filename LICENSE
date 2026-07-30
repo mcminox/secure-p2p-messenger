@@ -1,21 +1,46 @@
-MIT License
+PROPRIETARY SOFTWARE LICENSE
+All Rights Reserved
 
-Copyright (c) 2026 Secure P2P Messenger contributors
+Copyright (c) 2026 mcminox
+Project: Secure P2P Messenger
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. Nature of this repository
+   This repository is a DEMONSTRATION / PORTFOLIO SAMPLE of work associated
+   with the copyright holder. It is published to illustrate skills and
+   implementation approach. It is NOT an open-source product and is NOT
+   offered for general use, redistribution, or derivative works.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+2. Grant of limited viewing rights
+   You may view the source code in this public repository solely for personal,
+   non-commercial evaluation (for example: code review, hiring assessment,
+   educational reading).
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+3. Prohibited without prior written permission
+   Except for the limited viewing right above, you may NOT:
+   - copy, fork for redistribution, mirror, or republish the code;
+   - use the code (in whole or in part) in any product, service, homework,
+     contest submission, commercial project, or client work;
+   - modify and redistribute derivative works;
+   - remove or obscure copyright, authorship, or provenance marks;
+   - sell, sublicense, or otherwise commercially exploit the materials.
+
+4. No warranty
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR A
+   PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT
+   HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM
+   USE OF OR INABILITY TO USE THE SOFTWARE.
+
+5. Permission requests
+   For any use beyond limited viewing, contact the repository owner (mcminox)
+   and obtain explicit written permission in advance.
+
+6. Reservation of rights
+   All rights not expressly granted are reserved by the copyright holder.
+   Unauthorized use may constitute copyright infringement and may result in
+   civil and/or criminal liability under applicable law.
+
+Additional notice (portfolio demo):
+This is only a demonstration instance of one of the projects the author
+worked on. The materials are protected by this proprietary license and by
+copyright. Do not treat public visibility as permission to copy or reuse.
